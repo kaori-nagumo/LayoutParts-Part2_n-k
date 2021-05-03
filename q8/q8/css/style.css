@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.b--image {
+  background:url("../../image/coffee-background.jpg");
+}
+
+.box {
+  height: 500px;
+}
+
+.b--image--b--repeat {
+  background: url("../../image/coffee-background.jpg") no-repeat;
+}
+.b--image--cent_cov {
+  background: url("../../image/coffee-background.jpg") no-repeat center / cover;
+}
+
+.b--image--cent_all {
+  background: url("../../image/coffee-background.jpg") no-repeat center / contain;
+}

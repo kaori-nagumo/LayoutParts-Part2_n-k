@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/* Q10-1 */
+.wapper {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin-right: 30px;
+  padding: 0 15px;
+  line-height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button:last-child {
+  margin-right: 0;
+}
+
+.red {
+  color: #fff;
+  background: #fd0f0fd9;
+}
+
+.blue {
+  color: #fff;
+  background: #170ffdd9;
+}
+
+.green {
+  color: #000;
+  background: #0ffd0fd9;
+}
+
+/* Q10-2 */
+
+.r--shadow,.r--push {
+  box-shadow: 0 5px rgba(63,5,5,0.851);
+}
+
+.b--shadow,.b--push {
+  box-shadow: 0 5px rgba(5,13,63,0.851);
+}
+
+.g--shadow,.g--push {
+  box-shadow: 0 5px rgba(5,63,5,0.851);
+}
+
+/* Q10-3 */
+.r--push:active,.b--push:active,.g--push:active{
+  box-shadow: none;
+  transform: translateY(4px);
+}
+
+/* Q10-4 */
+.double {
+  color: #67c5ff;
+  border: 4px #67c5ff double;
+  transition: 0.5s;
+}
+
+.double:hover {
+  transition: 0.5s;
+  background-color: #fffbef;
+}
+
+.dotted {
+  color: #67c5ff;
+  border: 4px #75caff dotted;
+}
+
+.dotted:hover {
+  border: 4px #75caff dashed;
+}
+
+.dashed {
+  color: #0079a5f8;
+  background: #d0edfff8;
+  border: 4px #67c5ff dashed;
+  transition: 0.5s;
+}
+
+.dashed:hover {
+  color: #67c5ff;
+  background: #ffffff;
+  transition: 0.5s;
+}
